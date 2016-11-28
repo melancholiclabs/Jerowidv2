@@ -16,6 +16,7 @@ import java.util.regex.Pattern
  *
  * @property[id] id of the substance.
  * @property[name] name of the substance.
+ * @property[url] url of the substance.
  * @property[category] category of the substance.
  * @property[imageUrl] image url of the substance.
  * @property[botanicalClassification] botanical classification of the substance.

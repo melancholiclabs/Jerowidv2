@@ -9,7 +9,7 @@ import java.lang.UnsupportedOperationException
 /**
  * Returns a Jsoup document using the string as the url.
  *
- * @return [Document?] fetched using the given string as the url.
+ * @return jsoup document fetched using the given string as the url.
  */
 fun String.getJsoupDoc(): Document? {
     try {
@@ -36,7 +36,7 @@ fun String.reformat() = trim().replace(" +".toRegex(), " ").replace("\\r\\n|\\r|
 /**
  * Returns a tab/new-line deliminated string of the given Element representing an html table.
  *
- * @return [String?] of the table formatted using tab/new-line delimiters.
+ * @return string of the table formatted using tab/new-line delimiters.
  */
 fun Element.tableToString(): String? {
     try {
